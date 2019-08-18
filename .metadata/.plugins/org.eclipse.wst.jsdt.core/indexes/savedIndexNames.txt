@@ -1,0 +1,13 @@
+INDEX VERSION 1.4+C:\Users\loicm\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+181070027.index
+4216686726.index
+240326366.index
+3271193799.index
+97130470.index
+2479077745.index
+3864217682.index
+3230121097.index
+879386859.index
+2374424134.index
+1713559706.index
+1130441292.index

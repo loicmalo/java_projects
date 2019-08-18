@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Test des expressions EL</title>
+    </head>
+    <body>
+    <p>
+		<jsp:useBean id="coyote" class="com.sdzee.beans.Coyote"/>
+		<!-- Initialisation de sa propriété 'prénom' : -->
+		<jsp:setProperty name="coyote" property="prenom" value="Wile E." />
+		${ coyote.prenom == "Jean-Paul" }
+		${ empty coyote.prenom }
+		${ !empty coyote.prenom ? coyote.prenom : "Veuillez préciser un prénom" }
+    </p>
+    </body>
+</html>

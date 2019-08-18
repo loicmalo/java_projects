@@ -1,0 +1,6 @@
+select j_mat_prof.jmp_prof_k as prof_id, matiere.mat_nom as mat_nom
+from professeur join j_mat_prof
+on professeur.prof_id = j_mat_prof.jmp_prof_k
+join matiere
+on j_mat_prof.jmp_mat_k = matiere.mat_id
+order by prof_id;

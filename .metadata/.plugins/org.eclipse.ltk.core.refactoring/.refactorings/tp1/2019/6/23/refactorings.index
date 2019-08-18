@@ -1,0 +1,7 @@
+1559812484765	Delete element
+1559828541875	Move 'web.xml' to 'WEB-INF'
+1559829694719	Move 'afficherClient.jsp' to 'WEB-INF'
+1559829785290	Move 'afficherClient.jsp' to 'WebContent'
+1559830225952	Rename resource 'creerCommande.jsp'
+1559830243083	Rename resource 'creerClient.jsp'
+1559830255930	Rename resource 'creerCommande2.jsp'

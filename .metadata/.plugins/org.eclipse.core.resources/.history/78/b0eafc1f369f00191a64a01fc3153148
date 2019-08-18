@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+	id="WebApp_ID" version="4.0">
+	<jsp-config>
+		<jsp-property-group>
+			<url-pattern>*.jsp</url-pattern>
+			<include-prelude>/WEB-INF/taglibs.jsp</include-prelude>
+		</jsp-property-group>
+	</jsp-config>
+
+	<servlet>
+		<servlet-name>ListReceipts</servlet-name>
+		<servlet-class>com.lm.servlets.CreationListReceipts</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ListReceipts</servlet-name>
+		<url-pattern>/liste</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Receipt</servlet-name>
+		<servlet-class>com.lm.servlets.CreationReceipt</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Receipt</servlet-name>
+		<url-pattern>/ticket</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>MonthlyTotal</servlet-name>
+		<servlet-class>com.lm.servlets.CreationMonthlyTotal</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Receipt</servlet-name>
+		<url-pattern>/ticket/modifier</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Update</servlet-name>
+		<servlet-class>com.lm.servlets.Update</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>MonthlyTotal</servlet-name>
+		<url-pattern>/total</url-pattern>
+	</servlet-mapping>
+</web-app>

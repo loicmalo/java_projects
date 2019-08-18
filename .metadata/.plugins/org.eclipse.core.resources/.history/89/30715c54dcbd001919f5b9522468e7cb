@@ -1,0 +1,5 @@
+package com.sdzee.bdd;
+
+public class TestJDBC {
+
+}

@@ -1,0 +1,9 @@
+1562147543392	Move file
+1562147645859	Move 'listReceipts.jsp' to 'WEB-INF'
+1562157117575	Move 'listReceipts.jsp' to 'WebContent'
+1562157146682	Move 'listReceipts.jsp' to 'WEB-INF'
+1562157808262	Move 'receipt.jsp' to 'WebContent'
+1562158980980	Move 'receipt.jsp' to 'WEB-INF'
+1562166764754	Rename type 'Receipt'
+1562166903451	Rename type 'ListReceipts'
+1562166926112	Rename type 'MonthlyTotal'
